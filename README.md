@@ -101,27 +101,6 @@ optuna
 
 ---
 
-## 🚀 Cómo Reproducir
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm imbalanced-learn optuna
-   ```
-
-3. Coloca el archivo `ANEMIA_DA.csv` en la raíz del proyecto.
-
-4. Abre y ejecuta el notebook:
-   ```bash
-   jupyter notebook model_severidad.ipynb
-   ```
-
----
 
 ## 📌 Notas Adicionales
 
