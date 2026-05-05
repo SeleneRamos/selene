@@ -23,6 +23,8 @@ La variable objetivo `TARGET_PRIORIDAD` se construye a partir del campo `GRADO_S
 ```
 ├── model_severidad.ipynb   # Notebook principal con todo el pipeline
 ├── ANEMIA_DA.csv           # Dataset fuente (no incluido en el repo)
+├── ANEMIA_diccionario.xlsx
+├── deforestacion.ipynb     # Descripción 
 └── README.md
 ```
 
@@ -123,12 +125,9 @@ optuna
 
 ## 📌 Notas Adicionales
 
-- El dataset **no está incluido** en este repositorio por contener datos de salud sensibles.
 - El parámetro `scale_pos_weight` en XGBoost fue calculado dinámicamente a partir del ratio real de clases en el set de entrenamiento, y luego explorado por Optuna en un rango de `[1.0, ratio × 1.2]`.
 - La altitud media por provincia se incorporó como variable proxy del factor geográfico, conocido por su influencia en los valores normales de hemoglobina.
 
 ---
 
-## 👤 Autor
 
-Desarrollado como parte de un análisis de datos de salud pública en la región San Martín, Perú.
