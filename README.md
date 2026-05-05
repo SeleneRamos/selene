@@ -1,6 +1,6 @@
 # 🩸 Modelo de Clasificación de Severidad de Anemia
 
-Clasificación binaria de prioridad de casos de anemia en la región San Martín (Perú), utilizando modelos de Machine Learning con optimización de hiperparámetros mediante Optuna.
+Clasificación binaria de prioridad de casos de anemia en la región San Martín (Perú), utilizando modelos de Machine Learning con optimización de hiperparámetros mediante Optuna. El proyecto busca apoyar la toma de decisiones clínicas al identificar automáticamente los casos que requieren atención inmediata, contribuyendo a una gestión más eficiente de los recursos de salud pública en zonas con alta prevalencia de anemia infantil.
 
 ---
 
